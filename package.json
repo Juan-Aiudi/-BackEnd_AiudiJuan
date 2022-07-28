@@ -1,0 +1,16 @@
+{
+  "name": "myapp",
+ "description": "a really cool app",
+ "version": "1.0.0",
+ "engines": {
+   "node": "12.11.1"
+   },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "node index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env =jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+    }
+}
